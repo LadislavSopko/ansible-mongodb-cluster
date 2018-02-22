@@ -9,6 +9,7 @@ processManagement:
   pidFilePath: /var/run/mongo/mongoc.pid
 
 net:
+  bindIp: 0.0.0.0
   port: {{ mongoc_port }}
 
 storage:

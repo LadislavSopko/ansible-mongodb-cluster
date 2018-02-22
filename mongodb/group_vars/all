@@ -1,6 +1,6 @@
 # The global variable file mongodb installation
 
-mongodb_version: 3.2.11
+mongodb_version: 3.6.2
 
 # The chunksize for shards in MB
 mongos_chunk_size: 1

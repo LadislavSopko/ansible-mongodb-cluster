@@ -12,7 +12,7 @@
 #  yum: name=epel-release state=present
 
 - name: Create the repository for mongodb
-  copy: src=mongodb-org-3.2.repo dest=/etc/yum.repos.d/mongodb-org-3.2.repo
+  copy: src=mongodb-org-3.6.repo dest=/etc/yum.repos.d/mongodb-org-3.6.repo
 
 - name: Install the mongodb package
   yum: name={{ item }} state=present

@@ -17,6 +17,7 @@ security:
   keyFile: {{ mongodb_datadir_prefix }}secret
 
 net:
+  bindIp: 0.0.0.0
   port: {{ mongod_port }}
 
 replication:
