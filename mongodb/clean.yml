@@ -8,6 +8,7 @@
         - mongod-mongo1
         - mongod-mongo2
         - mongod-mongo3
+        - mongod-mongo4
       ignore_errors: yes
     - file: path=/data state=absent
 

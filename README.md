@@ -150,3 +150,11 @@ and issue the following command to get the status of the Shards:
         },
         "ok" : 1
     }
+
+
+NOTES:
+	1: open ports for inter hosts connections or turn off firewall   (systemctl stop firewalld -> systemctl disable firewalld)
+	2: copy ssh keys from ansible to available hosts: 
+			generate key [ssh-keygen -t rsa -C "name@example.org"]
+			copy to all [ssh-copy-id user@child1.dev]
+	3: set all hosts file so all can see all
